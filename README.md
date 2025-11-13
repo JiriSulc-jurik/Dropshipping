@@ -14,7 +14,6 @@ Stručný pracovní postup:
 4. Provedl jsem několik úprav designu podle požadavků.
 5. Výsledek jsem nahrál na GitHub a doplnil README.md.
 
----
 
 Použité technologie
 
