@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropshipping – Výhody a rizika</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+<header class="site-header glass">
+    <div class="shell header-inner">
+        <div class="logo-glow">
+            <span class="logo-main">Drop<span>Flow</span></span>
+            <span class="logo-sub">studentský web o dropshippingu</span>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Úvod</a>
+            <a href="princip.html">Princip</a>
+            <a href="vyhody-nevyhody.html" class="active">Výhody & rizika</a>
+            <a href="jak-zacit.html">Jak začít</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell main-grid">
+    <section class="panel panel-soft">
+        <h1>Výhody a rizika dropshippingu</h1>
+        <p class="lead">
+            Dropshipping může být skvělý start do světa e-commerce,
+            ale není to „rychlé zbohatnutí“. Podívej se na plusy a mínusy.
+        </p>
+
+        <div class="grid-2">
+            <article class="info-card glow-cyan">
+                <h2>Výhody</h2>
+                <ul>
+                    <li>Velmi nízké vstupní náklady – neplatíš sklad plný zboží.</li>
+                    <li>Nepotřebuješ řešit balení a logistiku zásilek.</li>
+                    <li>Můžeš rychle testovat různé produkty a niche.</li>
+                    <li>Podnikání se dá řídit z notebooku odkudkoli.</li>
+                    <li>Snadný start pro studenta nebo začátečníka.</li>
+                </ul>
+            </article>
+
+            <article class="info-card glow-purple">
+                <h2>Rizika a nevýhody</h2>
+                <ul>
+                    <li>Nižší marže kvůli konkurenci a provizím dodavatelům.</li>
+                    <li>Delší doručení, zvlášť u dodavatelů ze zahraničí.</li>
+                    <li>Menší kontrola nad kvalitou balení a produktu.</li>
+                    <li>Reklamace a nespokojení zákazníci jdou za tebou.</li>
+                    <li>Změny dostupnosti zboží, které musíš hlídat.</li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+    <section class="panel panel-soft">
+        <h2 class="section-title">Mini checklist: Je to pro tebe?</h2>
+        <p>
+            Zaškrtni tvrzení, která pro tebe platí. Pokud označíš všechno,
+            pravděpodobně ti dropshipping dává smysl vyzkoušet.
+        </p>
+
+        <div class="checklist">
+            <label>
+                <input type="checkbox" onchange="toggleChecklistItem(this)">
+                Zajímá mě online marketing a sociální sítě.
+            </label>
+            <label>
+                <input type="checkbox" onchange="toggleChecklistItem(this)">
+                Jsem ochotný komunikovat se zákazníky a řešit problémy.
+            </label>
+            <label>
+                <input type="checkbox" onchange="toggleChecklistItem(this)">
+                Nepotřebuju vydělat hned, beru to jako učení a zkušenost.
+            </label>
+            <label>
+                <input type="checkbox" onchange="toggleChecklistItem(this)">
+                Chápu, že budu závislý na kvalitě dodavatelů.
+            </label>
+        </div>
+
+        <p id="checklist-message" class="checklist-message hidden">
+            Vypadá to nadějně! Prohlédni si stránku <a href="jak-zacit.html">Jak začít</a>
+            a zkus si navrhnout svůj první testovací e-shop.
+        </p>
+    </section>
+</main>
+
+<footer class="site-footer glass">
+    <div class="shell footer-inner">
+        <span>&copy; 2025 DropFlow – studentský projekt o dropshippingu.</span>
+        <span class="footer-note">Sekce „Výhody & rizika“ – realistický pohled na model.</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

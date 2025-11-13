@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropshipping – Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-dark">
+<header class="site-header glass">
+    <div class="shell header-inner">
+        <div class="logo-glow">
+            <span class="logo-main">Drop<span>Flow</span></span>
+            <span class="logo-sub">studentský web o dropshippingu</span>
+        </div>
+        <nav class="main-nav">
+            <a href="index.html">Úvod</a>
+            <a href="princip.html">Princip</a>
+            <a href="vyhody-nevyhody.html">Výhody & rizika</a>
+            <a href="jak-zacit.html">Jak začít</a>
+            <a href="kontakt.html" class="active">Kontakt</a>
+        </nav>
+    </div>
+</header>
+
+<main class="shell main-grid">
+    <section class="panel panel-soft contact-panel">
+        <div class="contact-info">
+            <h1>Kontakt</h1>
+            <p class="lead">
+                Tento formulář slouží jen jako ukázka – žádná zpráva se ve
+                skutečnosti nikam neposílá. Po odeslání se zobrazí potvrzení
+                pomocí JavaScriptu.
+            </p>
+            <div class="contact-highlight neon-border">
+                <p>
+                    V reálném e-shopu by formulář směřoval na e-mail správce
+                    nebo na systém pro zákaznickou podporu.
+                </p>
+            </div>
+        </div>
+
+        <div class="contact-form-wrap">
+            <form class="contact-form" onsubmit="return handleContactFormSubmit(event);">
+                <div class="form-group">
+                    <label for="name">Jméno</label>
+                    <input type="text" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="form-group form-group-full">
+                    <label for="message">Zpráva</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary full-width">Odeslat zprávu</button>
+            </form>
+
+            <p id="contact-message" class="form-success hidden">
+                Děkujeme za vyplnění! V tomto projektu se zpráva pouze zobrazila
+                jako potvrzení – nikam se neposílá.
+            </p>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer glass">
+    <div class="shell footer-inner">
+        <span>&copy; 2025 DropFlow – studentský projekt o dropshippingu.</span>
+        <span class="footer-note">Sekce „Kontakt“ – ukázka práce s formulářem.</span>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
