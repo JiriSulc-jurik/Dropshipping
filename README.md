@@ -16,7 +16,7 @@ Stručný pracovní postup:
 
 ---
 
-## 7. Technologie, které AI použila
+Použité technologie
 
 - HTML5 – struktura stránek a obsah.
 - CSS3 – rozvržení, responzivita, neonový (svítící) design.
